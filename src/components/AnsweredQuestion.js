@@ -23,18 +23,20 @@ class AnsweredQuestion extends Component {
     return (
       <div className="card answer-card">
         <table className="creator-user-table">
-          <tr>
-            <td>
-              <img
-                className="avatar"
-                src={user.avatarURL}
-                alt={`Avatar of ${user.name}`}
-              />
-            </td>
-          </tr>
-          <tr>
-            <td class="text-wrap">Added by {user.name}</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  className="avatar"
+                  src={user.avatarURL}
+                  alt={`Avatar of ${user.name}`}
+                />
+              </td>
+            </tr>
+            <tr>
+              <td className="text-wrap">Added by {user.name}</td>
+            </tr>
+          </tbody>
         </table>
         <div className="card-container question-text text-wrap">
           <div className="result-header">

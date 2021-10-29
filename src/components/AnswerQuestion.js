@@ -66,7 +66,9 @@ class AnswerQuestion extends Component {
                   defaultChecked
                   onChange={this.handleChange}
                 />
-                <span class="question-option">{question.optionOne.text}</span>
+                <span className="question-option">
+                  {question.optionOne.text}
+                </span>
               </div>
               <div className="question-radio">
                 <input
@@ -75,7 +77,9 @@ class AnswerQuestion extends Component {
                   value="optionTwo"
                   onChange={this.handleChange}
                 />
-                <span class="question-option">{question.optionTwo.text}</span>
+                <span className="question-option">
+                  {question.optionTwo.text}
+                </span>
               </div>
               <div className="card-container answer-button-container">
                 <button>Submit</button>
