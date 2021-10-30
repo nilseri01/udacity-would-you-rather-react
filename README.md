@@ -2,13 +2,30 @@
 
 This is the code for the final assessment project for Udacity's React & Redux course.
 
+This project is forked from https://github.com/udacity/reactnd-project-would-you-rather-starter.
+
+## Authors
+
+- [Nil Seri](https://github.com/nilseri01)
+
+## To Get Started
+
+- install all project dependencies with `npm install`
+- start the development server with `npm start`
+
+You can also use `yarn install` and `yarn start` if yarn is installed.
+
+Then you can visit http://localhost:3000/ to use the application.
+
+## Usage
+
 You can choose with which user you want to login from your welcome screen.
 
 After you select, you are now able to see both answered and unanswered questions of the user, add New Question or see Leaderboard.
 
 You can see poll results for an answered question directly from answered tab. After you answer an unanswered question, you will be directed to see the poll results.
 
-The `_DATA.js` file represents a fake database and methods that let you access the data. The only thing you need to edit in the ` _DATA.js` file is the value of `avatarURL`. Each user should have an avatar, so you’ll need to add the path to each user’s avatar.
+If you are logged in and route to an undefined url, you will be shown a 404 page.
 
 ## Screenshots
 
@@ -30,7 +47,12 @@ View Poll Page (for an answered question):
 Leader Board Page
 ![ScreenShot](https://raw.github.com/nilseri01/udacity-would-you-rather-react/master/screenshots/leader-board.png)
 
+404 Page
+![ScreenShot](https://raw.github.com/nilseri01/udacity-would-you-rather-react/master/screenshots/not-found.png)
+
 ## Data
+
+The `_DATA.js` file represents a fake database and methods that let you access the data. The only thing you need to edit in the ` _DATA.js` file is the value of `avatarURL`. Each user should have an avatar, so you’ll need to add the path to each user’s avatar.
 
 There are two types of objects stored in our database:
 
@@ -121,4 +143,4 @@ _Parameters_: Object that contains the following properties: `authedUser`, `qid`
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests. For details, check out [CONTRIBUTING.md](https://github.com/udacity/reactnd-project-would-you-rather-starter/blob/master/CONTRIBUTING.md).
+https://github.com/udacity/reactnd-project-would-you-rather-starter is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests. For details, check out [CONTRIBUTING.md](https://github.com/udacity/reactnd-project-would-you-rather-starter/blob/master/CONTRIBUTING.md).

@@ -50,11 +50,11 @@ class AnsweredQuestion extends Component {
               <div
                 className="progress"
                 style={{ width: `${authedUserAnswerPercentage * 5}px` }}
-              ></div>
+              />
             </div>
             <span>
-              {authedUserAnswerCount} out of{' '}
-              {authedUserAnswerCount + otherAnswerCount} votes
+              <b>{authedUserAnswerPercentage}%</b> - {authedUserAnswerCount} out
+              of {authedUserAnswerCount + otherAnswerCount} votes
             </span>
           </div>
           <div className="answer-header">
@@ -65,10 +65,11 @@ class AnsweredQuestion extends Component {
               <div
                 className="progress"
                 style={{ width: `${otherAnswerPercentage * 5}px` }}
-              ></div>
+              />
             </div>
+            <div className="percentage"></div>
             <span>
-              {otherAnswerCount} out of{' '}
+              <b>{otherAnswerPercentage}%</b> - {otherAnswerCount} out of{' '}
               {authedUserAnswerCount + otherAnswerCount} votes
             </span>
           </div>

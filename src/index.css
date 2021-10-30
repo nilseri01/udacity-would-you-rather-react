@@ -450,3 +450,9 @@ ul.user-select li ul:focus {
 .select-container {
   padding-top: 30px;
 }
+
+/* 404 */
+.not-found-image {
+  height: 500px;
+  width: 500px;
+}
